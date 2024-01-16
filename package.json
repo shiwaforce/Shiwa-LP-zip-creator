@@ -1,20 +1,34 @@
 {
   "name": "shiwa-lp-zip-creator",
   "version": "1.0.0",
-  "description": "",
+  "description": "To use it add the following to your package.json file: ```json {   \"scripts\": {     \"create-lp-zip\": \"shiwa-lp-zip-creator <path to source directory> <path to output directory>.zip\"   } } ``` and then run: ```bash npm run create-lp-zip ```",
   "main": "index.js",
   "scripts": {
     "start": "node lib/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./lib/main.js",
+  "bin": {
+    "shiwa-lp-zip-creator": "lib/main.js"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Shiwaforce.com Zrt.",
   "license": "ISC",
   "dependencies": {
     "archiver": "^5.2.0",
     "fs-extra": "11.2.0",
     "glob": "10.3.10",
     "xmlbuilder2": "3.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiwaforce/Shiwa-LP-zip-creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiwaforce/Shiwa-LP-zip-creator/issues"
+  },
+  "homepage": "https://github.com/shiwaforce/Shiwa-LP-zip-creator#readme"
 }
