@@ -1,6 +1,6 @@
 {
   "name": "shiwa-lp-zip-creator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "To use it add the following to your package.json file: ```json {   \"scripts\": {     \"create-lp-zip\": \"shiwa-lp-zip-creator <path to source directory> <path to output directory>.zip\"   } } ``` and then run: ```bash npm run create-lp-zip ```",
   "main": "index.js",
   "scripts": {
