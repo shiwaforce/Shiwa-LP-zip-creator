@@ -1,0 +1,20 @@
+{
+  "name": "shiwa-lp-creator-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./lib/main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.2.0",
+    "fs-extra": "11.2.0",
+    "glob": "10.3.10",
+    "xmlbuilder2": "3.1.1"
+  }
+}
