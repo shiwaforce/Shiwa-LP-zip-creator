@@ -6,3 +6,7 @@ To use it add the following to your package.json file:
   }
 }
 ```
+and then run:
+```bash
+npm run create-lp-zip
+```
