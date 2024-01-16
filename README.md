@@ -1,4 +1,4 @@
-To use it add teh following to your package.json file:
+To use it add the following to your package.json file:
 ```json
 {
   "scripts": {
